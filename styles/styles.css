@@ -703,6 +703,18 @@ button {
   padding-left: 0;
 }
 
+.content-thankyou {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.thanks {
+  margin-bottom: 20px;
+  border-bottom: solid #8546e9 5px;
+}
+
 @media screen and (max-width: 600px) {
   header {
     padding: 0 !important;
